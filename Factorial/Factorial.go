@@ -10,6 +10,6 @@ func Factorial(n uint64)(result uint64) {
 }
 func Fac2(){
 
-	var i int = 15
+	var i int = 16
     fmt.Printf("%d      %d", i, Factorial(uint64(i)))
 }
