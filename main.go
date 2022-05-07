@@ -1,16 +1,8 @@
 package main
 
-import "fmt"
 
-func Factorial(n uint64)(result uint64) {
-    if (n > 0) {
-        result = n * Factorial(n-1)
-        return result
-    }
-    return 1
-}
+import "github.com/kyunghyunHan/go-tutorial/Factorial"
 
 func main() {  
-    var i int = 15
-    fmt.Printf("%d      %d", i, Factorial(uint64(i)))
+	Factorial.Fac2()
 }
