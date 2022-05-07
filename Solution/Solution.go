@@ -16,8 +16,34 @@ func Solution(s string) string{
 	 }
 
 
+	//  func Benchmark_solution(price int, money int, count int) int64 {
+	// 	var answer = (count + 1) * count * price / 2 
+	// 	fmt.Println("1",price/2) 
+	// 	fmt.Println("2",answer) 
+	// 	if answer<money { 
+	// 		return 0 
+	// 		} 
+	// 		var excess = int64(answer - money) 
+	// 		fmt.Println("5",excess) 
+	// 		return excess
 
-    func Solution2() { 
+
+	// 	}
+
+		//구구단multiplication table
+ func Multiplication (){
+	for i:=2 ; i < 10 ; i++ { 
+		for j:=2 ; j < 10 ; j++ { 
+		fmt.Printf("%d * %d = %d\t", j, i, i * j) 
+		} 
+	}
+
+
+ }
+
+    func Result() { 
 		fmt.Printf(Solution("dada"))
+		// fmt.Printf( Benchmark_solution(3,20,4))
+		Multiplication()
 		 }
 	
