@@ -62,7 +62,7 @@ func Pro(id_list []string, report []string, k int) []int {
 // 	a[2] = 3
 func Result(){
 
-	// fmt.Printf(Pro(id_list,report,k))
+	fmt.Printf()
 	var a []int        //슬라이스 변수 선언
    a = []int{1, 2, 3} //슬라이스에 값 지정
    a[1] = 10
