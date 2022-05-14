@@ -55,11 +55,17 @@ func Solution(s string) string{
 
 
  }
+ 
 
+
+
+ //
+
+ //
     func Result() { 
 		fmt.Printf(Solution("dada"))
 		// fmt.Printf( Benchmark_solution(3,20,4))
 		fmt.Printf(solution3("Zbcdefg"))
-		
+	
 		 }
 	
