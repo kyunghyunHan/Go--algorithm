@@ -40,7 +40,33 @@ func Silice(){
     fmt.Println(countriesCpy) // 깊은복사 [korea Singapore Germany]
     fmt.Println(countriesCpy2) // 얖은복사 [USA japan Germany]
     fmt.Println(countries) // [USA japan Germany India Australia]
-    슬라이스의 일부분을 복사하는데 make로 만든 배열에 copy를 이용하여 복사하면 깊은 복사가 된다.
+    //슬라이스의 일부분을 복사하는데 make로 만든 배열에 copy를 이용하여 복사하면 깊은 복사가 된다.
+    fmt.Println(len(countries))
+    fmt.Println(countries[:3])
+}
+
+func Map(){
+  m:= make(map[string]int)
+  m["first"] =1
+  fmt.Println(m["first"])
+
+ var fileExtensions = map[string]string{
+  
+   "C++":    ".cpp",
+   "Java":   ".java",
+   "Golang": ".go",
+   "Kotlin": ".kt",
+   "시바빌":".시발",
+}
+fmt.Println(fileExtensions) // map[Python:.py C++:.cpp Java:.java Golang:.go Kotlin:.kt]
+delete(fileExtensions, "Kotlin")
+delete(fileExtensions, "Javascript")
+fmt.Println(fileExtensions) // map[Python:.py C++:.cpp Java:.java Golang:.go]
+fmt.Println(fileExtensions["C++"])
+
+
+
+
 }
 func Result(){
     a2 := [...]string{"USA", "China", "India", "Germany", "France"}
@@ -50,4 +76,5 @@ func Result(){
     fmt.Println("b is ", b2)  // [Singapore China India Germany France]
     Array()
     Silice()
+    Map()
 }
