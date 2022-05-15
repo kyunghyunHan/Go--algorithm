@@ -1,7 +1,7 @@
 package DataStructure
 
 import "fmt"
-
+// import "github.com/deckarep/golang-set"
 func Array(){
     var a [5]int  // [0 0 0 0 0]
 a[4] = 100 // [0 0 0 0 100]
@@ -95,7 +95,12 @@ for name,age := range personAge{
 }
 }
 
+// func MapSet(){
 
+//     s := mapset.NewSet()
+//     s.Add("Cooking")
+//     fmt.Printf(s.String())
+// }
 func Result(){
     a2 := [...]string{"USA", "China", "India", "Germany", "France"}
     b2 := a2 // a copy of a is assigned to b
