@@ -6,7 +6,7 @@ import "sort"
 func solution3(s string) string { 
 	var result string 
 	var arr []int 
-	for i:=0 ; i<len(s); i++ { 
+	for i := 0 ; i<len(s); i++ { 
 		arr = append(arr, int(s[i])) 
 		} 
 		sort.Sort(sort.Reverse(sort.IntSlice(arr))) 
