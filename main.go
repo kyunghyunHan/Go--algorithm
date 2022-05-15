@@ -7,6 +7,7 @@ import "github.com/kyunghyunHan/go-tutorial/Sort"
 import "github.com/kyunghyunHan/go-tutorial/Pro"
 import "github.com/kyunghyunHan/go-tutorial/DataStructure"
 import "github.com/kyunghyunHan/go-tutorial/Golutine"
+import "github.com/kyunghyunHan/go-tutorial/Stack"
 func main() {  
 	Factorial.Fac2();
 	Solution.Result();
@@ -14,4 +15,5 @@ func main() {
 	Pro.Result();
     DataStructure.Result();
 	Golutine.Result();
+	Stack.Result()
 }
