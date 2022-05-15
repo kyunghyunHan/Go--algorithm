@@ -64,10 +64,38 @@ delete(fileExtensions, "Javascript")
 fmt.Println(fileExtensions) // map[Python:.py C++:.cpp Java:.java Golang:.go]
 fmt.Println(fileExtensions["C++"])
 
+//키가 없을 경우에는 ok가 false
+s := map[int]string{5:"five",2:"second"}
 
-
+_, ok := s[5],2 //check for existence //ok는 true
+_, ok2 := s[6]//check for existence //Ok는 false
+fmt.Println(ok)
+fmt.Println(ok2)
+var m1 = map[string]int{
+    "one":1,
+    "two":2,
+    "three":3,
 
 }
+
+var m2 = m1
+fmt.Println("m1 =",m2)
+
+
+
+
+var personAge = map[string]int{
+    "Rajeev" :25,
+    "James":32,
+    "Sarah": 29,
+
+}
+for name,age := range personAge{
+    fmt.Println(name,age)
+}
+}
+
+
 func Result(){
     a2 := [...]string{"USA", "China", "India", "Germany", "France"}
     b2 := a2 // a copy of a is assigned to b
