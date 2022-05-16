@@ -19,4 +19,5 @@ func main() {
 	// Stack.Result()
 	// Solution.SubResult()
 	Star.Star2()
+	Star.Result()
 }
