@@ -18,5 +18,5 @@ func main() {
 	// Golutine.Result();
 	// Stack.Result()
 	// Solution.SubResult()
-	Star.Star()
+	Star.Star2()
 }
