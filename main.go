@@ -16,4 +16,5 @@ func main() {
     DataStructure.Result();
 	Golutine.Result();
 	Stack.Result()
+	Solution.SubResult()
 }
