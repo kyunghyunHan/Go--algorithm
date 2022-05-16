@@ -25,3 +25,16 @@ func Star2() {
     fmt.Println(result) 
 
 }
+
+
+//행렬의 덧셈
+// var arr1  = int{}
+func solution(arr1 [][]int, arr2 [][]int) [][]int {
+    for i := range arr1 {
+        for j := range arr1[i] {
+            arr1[i][j] += arr2[i][j]
+        }
+    }
+
+    return arr1
+}
