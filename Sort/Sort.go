@@ -70,6 +70,26 @@ func Study7(){
 
 
 }
+// func Study8()[]int{
+	
+// 	var arr []int
+// 	var divisor int
+// 	fmt.Scan(&arr ,&divisor)
+//     result :=[]int{}
+//     for i:=0; i <len(arr); i ++{
+//         if arr[i] % divisor ==0 {
+//             result = append(result,arr[i])
+//         }
+//     }
+  
+  
+//     sort.Ints(result)
+    
+//     if len(result)==0{
+//         result = append(result,-1)
+//     }
+//     return result
+// }
 
 func Result() { 
 	
