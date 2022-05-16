@@ -7,10 +7,10 @@ import "fmt"
 //-> 큰문제를 작은 단위로 나누워서 해결하고 합치면서 큰 문제에 도달
 
 func maxSubArray(nums []int)int{
-	right := len(nums)-1
+	right := len(nums) -1
 	return findMaxSubArray(nums,0,right)
 }
-func findMaxSubArray(nums []int, left int, right int)int{
+func findMaxSubArray(nums[]int, left int, right int)int{
 
 	if left == right{
 		return nums[left]
@@ -25,7 +25,7 @@ func findMaxSubArray(nums []int, left int, right int)int{
 
 
 }
-func maxCrossing(nums[]int,left int, right int, mid int){
+func maxCrossing(nums[]int,left int, right int, mid int)int{
 	leftSum := -999999
 	rightSum:= -999999
 	sum:= 0
@@ -39,8 +39,8 @@ func maxCrossing(nums[]int,left int, right int, mid int){
 	}
 	return leftSum + rightSum
 }
-func max(values ...int){
-	maxVal :- values[0]
+func max(values ...int)int{
+	maxVal := values[0]
 	for _,v:= range values{
 		if v > maxVal{
 		maxVal = v
