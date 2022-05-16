@@ -24,8 +24,22 @@ func Que2(n int){
     }
 	fmt.Println(result)
 }
+var numbers =[]int{1,2,3,4,6,7,8,0}
+func Que3(numbers []int){
+	//없는 숫자 더하기
+	sum := 0
+    for i := 0; i < len(numbers); i++ {
+        sum += numbers[i]
+    }
+     result :=45-sum
+    fmt.Println(result)
+}
 
 func Result(){
+   
+
 	Que1(12)
 	Que2(12)
+	Que3(numbers)
+	
 }
