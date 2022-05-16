@@ -8,7 +8,8 @@ package main
 // import "github.com/kyunghyunHan/go-tutorial/DataStructure"
 // import "github.com/kyunghyunHan/go-tutorial/Golutine"
 // import "github.com/kyunghyunHan/go-tutorial/Stack"
-import "github.com/kyunghyunHan/go-tutorial/Star"
+// import "github.com/kyunghyunHan/go-tutorial/Star"
+import "github.com/kyunghyunHan/go-tutorial/String"
 func main() {  
 	// Factorial.Fac2();
 	// Solution.Result();
@@ -18,6 +19,7 @@ func main() {
 	// Golutine.Result();
 	// Stack.Result()
 	// Solution.SubResult()
-	Star.Star2()
-	Star.Result()
+	// Star.Star2()
+	// Star.Result()
+	String.String()
 }
