@@ -48,6 +48,15 @@ func max(values ...int)int{
 	}
 	return maxVal
 }
+func solution2(n int) int {
+    var x int = 1
+
+    for n%x != 1 {
+        x++
+    }
+
+    return x
+}
 func SubResult(){
 	problem := []int{-2,1,-3,4,-1,2,1,-5,4}
 	answer := maxSubArray(problem)

@@ -9,7 +9,8 @@ package main
 // import "github.com/kyunghyunHan/go-tutorial/Golutine"
 // import "github.com/kyunghyunHan/go-tutorial/Stack"
 // import "github.com/kyunghyunHan/go-tutorial/Star"
-import "github.com/kyunghyunHan/go-tutorial/String"
+// import "github.com/kyunghyunHan/go-tutorial/String"
+import "github.com/kyunghyunHan/go-tutorial/Programmers"
 func main() {  
 	// Factorial.Fac2();
 	// Solution.Result();
@@ -21,5 +22,5 @@ func main() {
 	// Solution.SubResult()
 	// Star.Star2()
 	// Star.Result()
-	String.String()
+	Programmers.Result()
 }
