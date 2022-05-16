@@ -41,5 +41,6 @@ func Result(){
 	Que1(12)
 	Que2(12)
 	Que3(numbers)
+	// Que4(a,b)
 	
 }

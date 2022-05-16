@@ -23,4 +23,5 @@ func main() {
 	// Star.Star2()
 	// Star.Result()
 	Programmers.Result()
+	Programmers.Result2()
 }
